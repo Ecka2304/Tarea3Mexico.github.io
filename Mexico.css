@@ -1,0 +1,149 @@
+body{
+    background-image: url("Mexican Table - 1000 Piece Puzzle by EuroGraphics.jpg");
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    height: 125px;
+    background-color: rgb(76, 97, 36);
+}
+.title{
+    float: left;
+}
+#info{
+    padding-top: 10px;
+}
+
+.icon{
+    float: left;
+}
+h1{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    float: left;
+    font-size: 30px ;
+    color: white;
+    margin-bottom: 25px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+nav{
+    background-color: #c59a5a
+    
+}
+ul {
+    padding: 10px;
+    margin : 10px;
+}
+
+li{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
+
+a:hover {
+    background-color: rgb(202, 202, 202);
+    color: rgb(37, 14, 1);
+}
+article{
+    background-color: beige;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.link{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+footer{
+    
+    background-color: rgb(76, 97, 36);
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0px;
+    
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color:white;
+
+}
+
+@media (max-width:510px){
+    h1{
+        font-size: 20px;
+    }
+}
+.section{
+    background-color: beige;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.img-mexico{
+    margin-top: 30px;
+    margin-left: 10px ;
+    
+}
+
+#derechos{
+    color:white;
+}
+#Tradiciones{
+    padding: 15px;
+}
+.link-rest{
+    font-size: larger;
+    color: red;
+    
+}
+.libro-link{
+    font-size: larger;
+    background-color: rgb(55, 121, 55);
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 20px;
+}
+.platillos{
+    list-style-type: none;
+    padding: 10px;
+    margin : 10px;
+}
+.plato{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    display: inline;
+}
+
+.arriba{
+    float: right;
+    margin-right: 30px;
+}
+.white{
+    color: white;
+}
