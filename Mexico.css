@@ -34,10 +34,12 @@ h1{
     margin-bottom: 25px;
 }
 .container{
-    max-width: 1000px;
+
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
 nav{
     background-color: #c59a5a
@@ -106,7 +108,8 @@ h3{
 .img-mexico{
     margin-top: 30px;
     margin-left: 10px ;
-    
+    max-width: 100%;
+    height: auto;
 }
 
 #derechos{
